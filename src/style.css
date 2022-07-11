@@ -8,3 +8,71 @@
   text-decoration: none;
   list-style: none;
 }
+
+a{
+  text-decoration:none;
+}
+
+.header{
+ margin:0;
+ padding:0;
+}
+
+.navbar__container{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height:80px;
+  width:100%;
+  padding: 30px 15px;
+  background-color:#fff;
+
+}
+
+.logo{
+  color:#3F3F3D;
+  font-family:'Playfair Display', serif; 
+  font-size:24px;
+  font-weight: 400;
+}
+
+.menu-active{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+gap:90px;
+font-family: 'Inter', sans-serif;
+font-size:14px;
+position: absolute;
+top:0;
+left:0;
+background-color:rgb(34, 32, 32);
+height:100%;
+width:100%;
+color:#fff;
+}
+
+.navbar__item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.open-menu  {
+  display: true;
+  color:#3F3F3D ;
+}
+
+.close-menu{
+  display: none;
+  color:#fff;
+
+}
+
+.navbar__btn a {
+  border: 2px solid #EB3C27;
+  background-color: #EB3C27;
+  color:white;
+  padding: 15px 20px;
+  border-radius: 7px;
+}
