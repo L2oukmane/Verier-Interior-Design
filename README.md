@@ -48,7 +48,7 @@ npx stylelint "**/*.{css,scss}"
 
 ```
 npm init -y
-npm install --save-dev hint@6.x
+npm install --save-dev hint@^7.0.0
 ```
 
 ##### For validation detection using Webhint Run
